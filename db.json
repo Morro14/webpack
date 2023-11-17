@@ -1,0 +1,11 @@
+{
+    "posts": [
+      { "id": 1, "title": "normal post", "author": "Bob" },
+      { "id": 2, "title": "interesting post", "author": "Al" },
+      { "id": 3, "title": "angry post", "author": "Maria" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
