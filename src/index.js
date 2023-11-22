@@ -40,7 +40,7 @@ function getJSONdata(url, callback) {
 
   req.send();
   console.log('Status: ', req.status);
-};
+}
 
 function displayData(data) {
   console.log(data);
@@ -63,6 +63,6 @@ function displayData(data) {
 
 
 document.body.appendChild(component());
-getJSONdata('http://localhost:3001/posts/', displayData);
+getJSONdata('http://localhost:3000/posts/', displayData);
 
 
